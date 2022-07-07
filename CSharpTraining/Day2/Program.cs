@@ -12,7 +12,7 @@ public class Program
         //Pricinples of OOP
         //Overloading
         
-
+        
         //Encapsulation:
         //2 parts 
         //variables/properties + methods to a singular unit.
@@ -83,5 +83,9 @@ public class Program
         fullTime.Work();
         Console.WriteLine("upcasted implemention");
         fullEmp.Work();
+
+        Shape s = new Square();
+
+ 
     }
 }

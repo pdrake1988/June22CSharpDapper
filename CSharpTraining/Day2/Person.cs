@@ -23,10 +23,10 @@ namespace Day2
             Id = id;
             Console.WriteLine("Id only");
         }
-        public Person(int id, string Name) : this()
+        public Person(int id, string name) : this()
         {
             Id = id;
-            this.Name = Name;
+            Name = name;
             Console.WriteLine("Id and string");
         }
 
