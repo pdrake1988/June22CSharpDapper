@@ -88,6 +88,11 @@ namespace DapperTutorial.UI
             while(true)
             {   GetAllDepartment();
                 Console.WriteLine("What do you want to do?");
+                Console.WriteLine("Here are the options.");
+                Console.WriteLine("Get all Departments.");
+                Console.WriteLine("Update a Department");
+                Console.WriteLine("Remove a Department.");
+                Console.WriteLine("Get a Department.");
                 string answer = Console.ReadLine();
                 switch(answer)
                 {
