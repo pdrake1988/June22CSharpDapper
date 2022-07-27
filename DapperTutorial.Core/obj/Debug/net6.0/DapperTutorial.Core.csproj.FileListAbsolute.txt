@@ -10,3 +10,15 @@ C:\Users\Lynn\Documents\JuneDapper\DapperTutorial\DapperTutorial.Core\obj\Debug\
 C:\Users\Lynn\Documents\JuneDapper\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\refint\DapperTutorial.Core.dll
 C:\Users\Lynn\Documents\JuneDapper\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.pdb
 C:\Users\Lynn\Documents\JuneDapper\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\ref\DapperTutorial.Core.dll
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.deps.json
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.dll
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.pdb
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.csproj.AssemblyReference.cache
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.AssemblyInfo.cs
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.dll
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\refint\DapperTutorial.Core.dll
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.pdb
+C:\Users\Paul\source\repos\June22CSharpDapper\DapperTutorial.Core\obj\Debug\net6.0\ref\DapperTutorial.Core.dll

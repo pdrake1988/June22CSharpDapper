@@ -21,12 +21,15 @@ namespace DapperTutorial.Infrastructure.Repositories
         }
         public int DeleteById(int id)
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = dbContext.GetConnection())
+            {
+                return conn.Execute("DELETE FROM Employee WHERE Id = @deptId", new { deptId = id });
+            }
         }
 
         public IEnumerable<Employee> GetAll()
         {
-            using(IDbConnection conn = dbContext.GetConnection())
+            using (IDbConnection conn = dbContext.GetConnection())
             {
                 string sql = "Select e.Id, e.FirstName, e.LastName, e.Salary, d.Id, d.Name, d.Location" +
                     " From Employee e Inner Join Department d On e.DeptId = d.Id";
@@ -36,7 +39,10 @@ namespace DapperTutorial.Infrastructure.Repositories
 
         public Employee GetById(int id)
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = dbContext.GetConnection())
+            {
+                return conn.QuerySingleOrDefault<Employee>("SELECT Id, Name, Age FROM Employee WHERE Id = @DeptId", new { DeptId = id });
+            }
         }
 
         public int Insert(Employee obj)
@@ -47,7 +53,10 @@ namespace DapperTutorial.Infrastructure.Repositories
 
         public int Update(Employee obj)
         {
-            throw new NotImplementedException();
+            using (IDbConnection conn = dbContext.GetConnection())
+            {
+                return conn.Execute("UPDATE Employee set Name = @Name, Age = @Age WHERE id = @Id", obj);
+            }
         }
     }
 }

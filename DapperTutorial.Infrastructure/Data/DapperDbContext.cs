@@ -14,9 +14,9 @@ namespace DapperTutorial.Infrastructure.Data
         IDbConnection dbConnection;
         public DapperDbContext()
         {
-            // dbConnection = new SqlConnection("Data Source=.;Initial Catalog=JuneBatch;Integrated Security=True");
-            //string conn = new ConfigurationBuilder().AddJsonFile("appSettings.json").Build().GetConnectionString("JuneBatch");\
-            //SqlConnection secondWay = new SqlConnection(conn);
+            dbConnection = new SqlConnection("Data Source=.;Initial Catalog=JuneBatch;Integrated Security=True");
+            //    //string conn = new ConfigurationBuilder().AddJsonFile("appSettings.json").Build().GetConnectionString("JuneBatch");\
+            //    //SqlConnection secondWay = new SqlConnection(conn);
         }
         public IDbConnection GetConnection()
         {

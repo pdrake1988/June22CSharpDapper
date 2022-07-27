@@ -81,11 +81,32 @@ namespace DapperTutorial.UI
 
         public void Run()
         {
-
-            AddDepartment();
+            //AddDepartment();
             //GetAllDepartment();
             //Console.WriteLine("Exhibits nothing");
             //Console.ReadKey();
+            while(true)
+            {   GetAllDepartment();
+                Console.WriteLine("What do you want to do?");
+                string answer = Console.ReadLine();
+                switch(answer)
+                {
+                    case "Get all Departments":
+                        AddDepartment();
+                        break;
+                    case "Update Department":
+                        UpdateDepartment();
+                        break;
+                    case "Remove Department":
+                        RemoveDepartment();
+                        break;
+                    case "Get a Department":
+                        GetDepartment();
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
     }
 }
